@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		".current {\n    color: green;\n}\n\n\n.navigation {\n    background-color: white;\n    border-bottom: 1px solid grey;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACf;;AAGD,AAAA,WAAW,CAAC,EACR,gBAAgB,EAAE,KAAK,EACvB,aAAa,EAAE,cAAc,GAChC"
+}
