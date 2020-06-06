@@ -85,6 +85,11 @@ body {
     background-color: #ededed;
 }
 
+.content {
+    width: 960px;
+    padding: 20px;
+}
+
 .current {
     text-align: justify;
     color: white;
@@ -124,4 +129,27 @@ a:hover {
 h1,
 p {
     color: #212121;
+}
+
+
+@media (max-width: 600px) {
+    .content {
+        width: 95%;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 600px) {
+    .content {
+        margin: 0 auto;
+        width: 600px;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 960px) {
+    .content {
+        width: 960px;
+        padding: 5px;
+    }
 }

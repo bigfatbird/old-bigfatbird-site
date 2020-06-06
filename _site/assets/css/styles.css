@@ -32,6 +32,8 @@ input, button, textarea, select { font: inherit; }
 /* CSS reset end */
 body { background-color: #ededed; }
 
+.content { width: 960px; padding: 20px; }
+
 .current { text-align: justify; color: white; border: 1px solid #c4c4c4; border-radius: 3px; background-color: #a14a4a; }
 
 .current:hover { text-decoration: none; color: white; }
@@ -45,5 +47,11 @@ a { text-decoration: none; color: #a14a4a; }
 a:hover { color: #803d3d; text-decoration: underline; }
 
 h1, p { color: #212121; }
+
+@media (max-width: 600px) { .content { width: 95%; padding: 5px; } }
+
+@media (min-width: 600px) { .content { margin: 0 auto; width: 600px; padding: 5px; } }
+
+@media (min-width: 960px) { .content { width: 960px; padding: 5px; } }
 
 /*# sourceMappingURL=styles.css.map */
