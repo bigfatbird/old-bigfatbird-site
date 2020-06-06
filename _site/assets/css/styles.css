@@ -30,7 +30,7 @@ input, button, textarea, select { font: inherit; }
 @media (prefers-reduced-motion: reduce) { * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; } }
 
 /* CSS reset end */
-body { background-color: #ededed; }
+body { background-color: #ededed; line-height: 1.5; }
 
 .content { width: 960px; padding: 20px; }
 
@@ -42,11 +42,17 @@ body { background-color: #ededed; }
 
 nav a { font-size: 1.6rem; margin: 5px; padding: 3px; }
 
-a { text-decoration: none; color: #a14a4a; }
+a { font-family: 'Roboto', sans-serif; text-decoration: none; color: #a14a4a; }
+
+li a { font-family: 'Fredoka One', cursive; }
 
 a:hover { color: #803d3d; text-decoration: underline; }
 
+h1, h2 { font-family: 'Fredoka One', cursive; font-size: 20px; }
+
 h1, p { color: #212121; }
+
+p { font-family: 'Roboto', sans-serif; }
 
 @media (max-width: 600px) { .content { width: 95%; padding: 5px; } }
 

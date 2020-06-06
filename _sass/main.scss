@@ -81,8 +81,11 @@ select {
 
 /* CSS reset end */
 
+
+
 body {
     background-color: #ededed;
+    line-height: 1.5;
 }
 
 .content {
@@ -117,8 +120,14 @@ nav a {
 }
 
 a {
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: #a14a4a;
+}
+
+
+li a {
+    font-family: 'Fredoka One', cursive;
 }
 
 a:hover {
@@ -127,8 +136,18 @@ a:hover {
 }
 
 h1,
+h2 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+h1,
 p {
     color: #212121;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
 }
 
 
