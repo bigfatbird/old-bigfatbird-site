@@ -54,12 +54,12 @@ h1, p { color: #212121; }
 
 p { font-family: 'Roboto', sans-serif; }
 
+.blog-entry { margin-bottom: 30px; }
+
 @media (max-width: 600px) { .content { width: 95%; padding: 5px; } }
 
 @media (min-width: 600px) { .content { margin: 0 auto; width: 600px; padding: 5px; } }
 
 @media (min-width: 960px) { .content { width: 960px; padding: 5px; } }
-
-.blog-entry { margin-bottom: 30px; }
 
 /*# sourceMappingURL=styles.css.map */

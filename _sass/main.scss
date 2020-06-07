@@ -150,6 +150,9 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+.blog-entry {
+    margin-bottom: 30px;
+}
 
 @media (max-width: 600px) {
     .content {
@@ -171,9 +174,4 @@ p {
         width: 960px;
         padding: 5px;
     }
-}
-
-
-.blog-entry {
-    margin-bottom: 30px;
 }
