@@ -1,36 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Blog neu aufgesetzt</title>
-        <link rel="stylesheet" href="/assets/css/styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="navigation">
-    <nav>
-        
-        <a href="/" >
-            Home
-        </a>
-        
-        <a href="/about.html" >
-            About
-        </a>
-        
-        <a href="/blog.html" >
-            Blog
-        </a>
-        
-    </nav>
-</div>
-
-        <div class="content">
-            <h1>Blog neu aufgesetzt</h1>
-<p>06 Jun 2020 - marco</p>
-
-<p>Ich schraube hier gerade an nem neuen System und Webdesign für mein gutes
+I"9<p>Ich schraube hier gerade an nem neuen System und Webdesign für mein gutes
 altes Blog. Ich habe das ne ganze Weile nicht mehr betrieben, weil ich damals leider
 für das posten eines Bildes abgemahnt wurde, und auch nicht so wirklich mehr die Motivation
 und Zeit für dieses Webprojekt hatte.</p>
@@ -56,8 +24,4 @@ wieder ein. Aber erst mal fühlt sich das gerade gut an hier hin zu schreiben.</
 <p>Grüße</p>
 
 <p>Marco</p>
-
-
-        </div>
-    </body>
-</html>
+:ET
