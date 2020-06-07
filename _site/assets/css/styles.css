@@ -60,4 +60,6 @@ p { font-family: 'Roboto', sans-serif; }
 
 @media (min-width: 960px) { .content { width: 960px; padding: 5px; } }
 
+.blog-entry { margin-bottom: 30px; }
+
 /*# sourceMappingURL=styles.css.map */
