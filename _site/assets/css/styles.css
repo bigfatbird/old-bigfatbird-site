@@ -56,7 +56,7 @@ p { font-family: 'Roboto', sans-serif; }
 
 .blog-entry { margin-bottom: 30px; }
 
-.post-content { margin: 0 auto; }
+.post-content { margin: 0 auto; padding-bottom: 200px; }
 
 .post-content h1 { color: #a14a4a; }
 
