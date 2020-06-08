@@ -42,5 +42,56 @@
     </div>
 
         </div>
+        <div id="cookieConsent">
+            <div id="myCookieConsent">
+        	<a id="cookieButton">Agree</a>
+        	<div>Want some 🍪? By using this site you agree on using cookies.</div>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+        // Cookie Compliancy BEGIN
+            function GetCookie(name) {
+            var arg=name+"=";
+            var alen=arg.length;
+            var clen=document.cookie.length;
+            var i=0;
+            while (i<clen) {
+            var j=i+alen;
+            if (document.cookie.substring(i,j)==arg)
+              return "here";
+            i=document.cookie.indexOf(" ",i)+1;
+            if (i==0) break;
+            }
+            return null;
+            }
+            function testFirstCookie(){
+            var offset = new Date().getTimezoneOffset();
+            if ((offset >= -180) && (offset <= 0)) { // European time zones
+                var visit=GetCookie("cookieCompliancyAccepted");
+                if (visit==null){
+                   $("#myCookieConsent").fadeIn(400);	// Show warning
+               } else {
+                    // Already accepted
+               }
+            }
+            }
+            $(document).ready(function(){
+            $("#cookieButton").click(function(){
+                console.log('Understood');
+                var expire=new Date();
+                expire=new Date(expire.getTime()+7776000000);
+                document.cookie="cookieCompliancyAccepted=here; expires="+expire+";path=/";
+                $("#myCookieConsent").hide(400);
+            });
+            testFirstCookie();
+            });
+            // Cookie Compliancy END
+
+
+        </script>
+
     </body>
 </html>

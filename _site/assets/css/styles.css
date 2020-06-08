@@ -68,4 +68,16 @@ p { font-family: 'Roboto', sans-serif; }
 
 @media (min-width: 960px) { .content { width: 960px; padding: 5px; } }
 
+#myCookieConsent { z-index: 999; min-height: 20px; font-family: OpenSans, arial, "sans-serif"; padding: 10px 20px; background: rgba(0, 0, 0, 0.6); overflow: hidden; position: fixed; color: #FFF; bottom: 0px; right: 10px; display: none; left: 0; text-align: center; font-size: 15px; font-weight: bold; }
+
+#myCookieConsent div { padding: 5px 0 0; }
+
+#myCookieConsent a { color: #a14a4a; display: inline-block; padding: 0 10px; }
+
+#myCookieConsent a:hover { color: #fda016; }
+
+#myCookieConsent a#cookieButton { display: inline-block; color: #ffffff; font-size: 1.1em; background: #a14a4a; text-decoration: none; cursor: pointer; padding: 2px 20px; float: right; border-radius: 20px; }
+
+#myCookieConsent a#cookieButton:hover { background: #783737; color: #d4d4d4; }
+
 /*# sourceMappingURL=styles.css.map */
