@@ -1,4 +1,3 @@
-url:
-  - https://bigfatbird.de
+url: https://bigfatbird.de
 plugins:
   - jekyll-feed
