@@ -169,6 +169,32 @@ p {
     height: 50px;
 }
 
+/*
+
+To position an img center, left or right use the following syntax
+
+![image alt >](/image-right.jpg)
+![image alt <](/image-left.jpg)
+![image alt ><](/center-image.jpg)
+
+*/
+
+img[alt$=">"] {
+  float: right;
+}
+
+img[alt$="<"] {
+  float: left;
+}
+
+img[alt$="><"] {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  float: none!important;
+}
+
 @media (max-width: 600px) {
     .content {
         width: 95%;

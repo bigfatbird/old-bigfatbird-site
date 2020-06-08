@@ -62,6 +62,21 @@ p { font-family: 'Roboto', sans-serif; }
 
 .spacer { margin-top: 30px; border-top: 1px solid #2e2e2e; height: 50px; }
 
+/*
+
+To position an img center, left or right use the following syntax
+
+![image alt >](/image-right.jpg)
+![image alt <](/image-left.jpg)
+![image alt ><](/center-image.jpg)
+
+*/
+img[alt$=">"] { float: right; }
+
+img[alt$="<"] { float: left; }
+
+img[alt$="><"] { display: block; max-width: 100%; height: auto; margin: auto; float: none !important; }
+
 @media (max-width: 600px) { .content { width: 95%; padding: 5px; } .post-content { margin: 0 auto; width: 95%; } }
 
 @media (min-width: 600px) { .content { margin: 0 auto; width: 600px; padding: 5px; } }
