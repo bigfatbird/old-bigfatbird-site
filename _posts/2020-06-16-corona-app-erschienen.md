@@ -2,7 +2,7 @@
 layout: post
 author: marco
 comments: true
-title: Corna App erschienen
+title: Corona App erschienen
 ---
 ![Corona alt ><](/assets/images/corona.jpg){:width:"60%"}
 
