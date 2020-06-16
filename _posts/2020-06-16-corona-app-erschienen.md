@@ -20,4 +20,4 @@ lassen.
 Um es möglichst vielen Menschen zu ermöglichen sie zu nutzen möchte ich auch hier die
 Downloadlinks teilen.
 
-Nutzern von Android klicken [hier](https://play.google.com/store/apps/details?id=de.rki.coronawarnapp), Nutzer von iOS klicken [hier](https://apps.apple.com/de/app/corona-warn-app/id1512595757).
+Nutzer von Android klicken [hier](https://play.google.com/store/apps/details?id=de.rki.coronawarnapp), Nutzer von iOS klicken [hier](https://apps.apple.com/de/app/corona-warn-app/id1512595757).
