@@ -11,7 +11,7 @@ Jetzt erschien endlich - mit Verspätung und nach viel Diskussion - die App zum 
 und tracken der Virusverteilung.
 
 
-Ich habe mir die App bereits vor ein paar Tagen aus Github runtergeladen und angeschaut und angeschaut und heute
+Ich habe mir die App bereits vor ein paar Tagen aus Github runtergeladen, angeschaut und heute
 fand dann das offizielle Release statt.
 Ich finde das ist eine gute Sache und hilft höchstwahrscheinlich die Pandemie etwas in den Griff zu bekommen.
 Man muss eigentlich nicht wirklich etwas tun außer die Risiko-Ermittlung eingeschaltet zu lassen und sein Bluetooth aktiviert
