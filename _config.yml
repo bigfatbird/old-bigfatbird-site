@@ -4,3 +4,4 @@ plugins:
   - jekyll-feed
 collections:
     authors:
+        output: true
