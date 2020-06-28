@@ -2,3 +2,5 @@ title: "Bigfatbird - Der fette Vogel bricht den Ast"
 url: https://bigfatbird.de
 plugins:
   - jekyll-feed
+collections:
+    authors:
